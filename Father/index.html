@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-text="I'M NGUYEN VAN XUAN" class="name">I'M NGUYEN VAN XUAN</h1>
+      <h2 class="job">Front - End Developer</h2>
+      <div class="item-one">
+        <div class="card">
+          <!-- <div class="card__top">
+            <div class="card__heart">
+              <i class="bx bx-heart"></i>
+                </div>
+            <div class="card__cart">
+              <i class="bx bx-cart-alt"></i>
+            </div>
+          </div> -->
+          <div class="card__img">
+            <img
+              src="https://www.nodemy.vn/projects/html-css-js/product-card/Nike%20Zoom%20KD%2012.png"
+              alt=""
+            />
+          </div>
+          <div class="card__title">Nike Zoom KD 12</div>
+          <div class="card__price">$99</div>
+          <div class="card__size">
+            <h3>Size:</h3>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+          </div>
+          <div class="card__color">
+            <h3>Color:</h3>
+            <span class="card__color--green"></span>
+            <span class="card__color--red"></span>
+            <span class="card__color--black"></span>
+          </div>
+          <div class="card__action">
+            <button>Buy now</button>
+            <button>Add cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- <li><a href="index.html"> Hover Me </a></li>
+      <li><a href="Two.html"> Profile Card </a></li>
+      <li><a href="Three.html"> Open Modal </a></li>
+      <li><a href="For.html"> Show on scroll </a></li>
+      <li><a href="Five.html"> Login Form </a></li>
+      <li><a href="Six.html"> Call Api Weather </a></li>
+      <li><a href="Seven.html"> Todo List </a></li>
+      <li><a href="Eight.html"> Number Counter Up </a></li> -->
+      <div class="item-two">
+        <div class="cart">
+          <div class="cart__img">
+            <img
+              src="https://www.nodemy.vn/projects/html-css-js/profile-card/aNam.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Dinh Nam</h2>
+          <p>Fullstack Developer</p>
+          <div class="cart__social">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <button>Contact me</button>
+        </div>
+        <!-- Card profile -->
+        <div class="cart">
+          <div class="cart__img">
+            <img
+              src="https://www.nodemy.vn/projects/html-css-js/profile-card/aNam.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Dinh Nam</h2>
+          <p>Fullstack Developer</p>
+          <div class="cart__social">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <button>Contact me</button>
+        </div>
+        <div class="cart">
+          <div class="cart__img">
+            <img
+              src="https://www.nodemy.vn/projects/html-css-js/profile-card/aNam.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Dinh Nam</h2>
+          <p>Fullstack Developer</p>
+          <div class="cart__social">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <button>Contact me</button>
+        </div>
+      </div>
+      <div class="item-three">
+        <button class="open-modal-btn">Open Modal</button>
+        <div class="modal hide">
+          <div class="modal__inner">
+            <div class="modal__header">
+              <p>Welcome to Website Ecomerce</p>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="modal__body">
+              <h2>Modal</h2>
+              <p>Đây là phần body của modal</p>
+            </div>
+            <div class="modal__footer">
+              <button>Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Call Api Weather -->
+      <div id="weather">
+        <input type="text" class="search" />
+        <div class="content">
+          <h1 class="capital">
+            <span class="city"> Ha Noi </span>
+            <span> , </span>
+            <span class="country"> VN </span>
+          </h1>
+          <div class="time">12/24/2021, 3:25:16 PM</div>
+          <div class="temperature">
+            <span class="value"> 23 <sup> o </sup> C </span>
+          </div>
+          <div class="short-desc">Clouds</div>
+          <div class="more-desc">
+            <div class="visibility">
+              <i class="fa-solid fa-eye"></i>
+              <span> 1000m </span>
+            </div>
+            <div class="wind">
+              <i class="fa-solid fa-wind"></i>
+              <span> 1000m </span>
+            </div>
+            <div class="sun">
+              <i class="fa-solid fa-sun"></i>
+              <span> 1000m </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Number Counter Up -->
+      <div class="item-eight">
+        <div class="counter">
+          <h1>Facebook</h1>
+          <h2 class="number">3300</h2>
+        </div>
+        <div class="counter">
+          <h1>Youtube</h1>
+          <h2 class="number">1000</h2>
+        </div>
+        <div class="counter">
+          <h1>Tiktok</h1>
+          <h2 class="number">9900</h2>
+        </div>
+        <div class="counter">
+          <h1>Instagram</h1>
+          <h2 class="number">200000</h2>
+        </div>
+      </div>
+      <!-- Todo List -->
+      <div class="tasks">
+        <form action="">
+          <input type="text" placeholder="Enter your todo" class="addtodos" />
+          <button type="submit">Add</button>
+        </form>
+        <ul class="todos">
+          <!-- <li>
+            <span> TEST </span>
+            <i class="fa-solid fa-trash-can"></i>
+          </li>
+          <li class="completed">
+            <span> TEST </span>
+            <i class="fa-solid fa-trash-can"></i>
+          </li> -->
+        </ul>
+      </div>
+      <!-- Login Form -->
+      <div class="item-nine-father">
+        <div class="item-nine">
+          <form action="">
+            <h1 class="one">Login Form</h1>
+            <div class="form-control">
+              <input type="text" placeholder="Username" id="username" />
+              <small></small>
+              <span> </span>
+            </div>
+            <div class="form-control">
+              <input type="email" placeholder="Email" id="email" />
+              <small></small>
+              <span> </span>
+            </div>
+            <div class="form-control">
+              <input type="password" placeholder="Password" id="password" />
+              <small></small>
+              <span> </span>
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="confirm-password"
+              />
+              <small></small>
+              <span> </span>
+            </div>
+            <button type="submit" class="btn-submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
